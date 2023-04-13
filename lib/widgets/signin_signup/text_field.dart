@@ -28,7 +28,6 @@ class SigninSignUpTextField extends StatelessWidget {
           child: TextField(
             // to control the text field
             controller: controller,
-
             decoration: InputDecoration(
               prefixIcon: prefixIcon,
               prefixIconConstraints: const BoxConstraints(minWidth: 60),
